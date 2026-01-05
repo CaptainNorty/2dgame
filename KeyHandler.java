@@ -25,6 +25,7 @@ public class KeyHandler implements KeyListener {
         }
     }
 
+    // keylistener requires this
     @Override
     public void keyReleased(KeyEvent e) {
         int code = e.getKeyCode();
